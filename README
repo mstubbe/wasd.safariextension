@@ -1,0 +1,17 @@
+Supported Keys:
+
+gg, G
+h, j, k, l
+w, a, s, d
+^D, ^U, ^F, ^B
+esc, i
+gt, gT, gt
+
+Supported commands:
+
+:q, :q!, :tabnew
+:tabn, :tabp, :tabfir, :tabfirst, :tablast
+:e @url, :edit @url, :tabe @url, :tabedit @url
+:%s/@search/@replace
+
+Special thanks to Mutwin Kraus Jason Green Jannik Nielsen ( https://github.com/mutle/vim.safariextension )
