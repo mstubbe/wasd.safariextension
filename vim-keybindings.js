@@ -166,6 +166,8 @@ t.keyCommand = function(c, e) {
     case 'd':
       if (t.functionkeys({'none': '1'})) {
         t.scroll(SCROLL_STEP, 0);
+      } else if(t.functionkeys({'ctrl': '1'})) {    
+        t.scroll(0, +t.halfWindowHeight());    
       }
     break;
     case 'f':
